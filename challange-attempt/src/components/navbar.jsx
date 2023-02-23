@@ -35,7 +35,7 @@ export const Navbar = () => {
 
     
   return (
-    <nav className={`relative lg:flex md:flex mx-0 lg:mx-20 justify-between bg-white ${shadow}`}>
+    <nav className={`relative lg:flex md:flex mx-0 lg:mx-20 justify-between bg-white z-10 ${shadow}`}>
         <div className="p-6 justify-between flex">
             <img src={Logo} alt={Logo} />
             <button className='block text-white md:hidden p-2' onClick={toggleOpen}>

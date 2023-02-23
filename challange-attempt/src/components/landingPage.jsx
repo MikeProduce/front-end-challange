@@ -1,4 +1,6 @@
 import DesktopImage from '../images/bg-intro-desktop.svg'
+import MobileImage from '../images/bg-intro-mobile.svg'
+import MobilePhones from '../images/image-mockups.png'
 
 
 export const LandingPage = () => {
@@ -6,10 +8,11 @@ export const LandingPage = () => {
 
 
     return (
-        <section className='bg-white pb-10'>
+        <section className='bg-Very-Light-Gray pb-10'>
             <div className='lg:mx-20'>
             <div>
-                <img src={DesktopImage} alt="" />
+                <img className='z-1 absolute top-0' src={MobilePhones} alt={MobileImage} />
+                <img src={MobileImage} alt="" />
             </div>
             <div className='text-center'>
                 <h1 className='text-4xl p-4'>Next generation digital banking</h1>
