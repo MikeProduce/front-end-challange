@@ -9,7 +9,7 @@ export const SectionOne = () => {
 
 
     return (
-        <section className='bg-Light-Grayish-Blue pb-10 pt-10'>
+        <section className='bg-Light-Grayish-Blue pb-10 pt-10 md:z-10 lg:z-10'>
             <div className='lg:mx-20'>
             <div className='text-center'>
                 <h1 className='text-3xl p-4'>Why choose <br/> Easybank?</h1>

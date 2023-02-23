@@ -2,6 +2,7 @@ import { Navbar } from "./components/navbar"
 import {LandingPage} from "./components/landingPage"
 import { SectionOne } from "./components/sectionOne"
 import { SectionTwo } from "./components/sectionTwo"
+import {Footer} from './components/footer'
 function App() {
 
   return (
@@ -10,6 +11,7 @@ function App() {
       <LandingPage />
       <SectionOne />
       <SectionTwo />
+      <Footer />
     </div>
   )
 }
