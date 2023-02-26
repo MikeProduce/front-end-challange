@@ -1,7 +1,7 @@
 import DesktopImage from '../images/bg-intro-desktop.svg'
 import MobileImage from '../images/bg-intro-mobile.svg'
 import MobilePhones from '../images/image-mockups.png'
-import { useEffect,useRef } from 'react'
+import { Fade } from "react-awesome-reveal";
 
 
 
@@ -17,12 +17,14 @@ export const LandingPage = () => {
       <img className='z-10 absolute hidden md:block xl:-top-64 lg:-top-32 md:-top-32 md:h-max md:w-full 2xl:w-9/12 2xl:-right-96' src={DesktopImage} alt={DesktopImage} />
       <img className='md:hidden w-full' src={MobileImage} alt="" />
     </div>
+    <Fade triggerOnce direction="left">
     <div className='text-center items-center md:text-left 2xl:w-11/12'>
       <h1 className='text-4xl p-4 md:py-4 md:px-0 2xl:text-4xl '>Next generation digital banking</h1>
       <p className='p-4 text-sm text-Grayish-Blue md:py-4 md:px-0 2xl:text-lg'>Take your financial life online. Your Easybank account wil be a one-stop-shop for spending,saving,budgeting,investing, and much more.
       </p>
       <button className="rounded-3xl px-4 py-3 bg-gradient-to-r from-lime-green to-Bright-Cyan text-white text-md">Request Invite</button>
     </div>
+    </Fade>
   </div>
 </section>
     )
