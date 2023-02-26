@@ -26,7 +26,7 @@ export const SectionOne = () => {
 
 
     return (
-        <section className='bg-Light-Grayish-Blue pb-10 pt-10 md:z-10 lg:z-10 md:p-4 md:py-32'>
+        <section className=' bg-Light-Grayish-Blue pb-10 pt-10 md:z-10 lg:z-10 xl:z-10 md:p-4 md:py-32'>
             <div className='lg:mx-20 md:mx-10'>
             <div className='text-center md:text-left'>
                 <h1 className='text-3xl p-4 md:p-2'>Why choose <br className='md:hidden'/> Easybank?</h1>
