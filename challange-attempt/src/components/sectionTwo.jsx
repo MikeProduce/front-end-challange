@@ -35,14 +35,14 @@ export const SectionTwo = () => {
     return (
         <section className='bg-Very-Light-Gray pb-10 pt-10'>
             <div className='lg:mx-20 md:py-32'>
-              <h1 className='text-3xl p-4 text-center md:text-left'>Latest Articles</h1>
+              <h1 className='text-3xl p-4 text-center md:text-left text-Dark-Blue'>Latest Articles</h1>
               <div className='md:flex'>
                 {articles.map((article, index) => (
                   <Fade triggerOnce direction='down' delay={index * 100} key={index}>
                     <div className='m-5 bg-white mt-10 rounded-xl'>
-                      <img className='rounded-t-xl w-full' src={article.image} alt={article.image} />
+                      <img className='rounded-t-xl w-full h-64 object-cover' src={article.image} alt={article.image} />
                       <h1 className='text-xs px-6 pt-8 text-Grayish-Blue'>{article.author}</h1>
-                      <h1 className='text-md px-6 py-2'>{article.title}</h1>
+                      <h1 className='text-md px-6 py-2 text-Dark-Blue transition hover:scale-110 cursor-pointer'>{article.title}</h1>
                       <p className='px-6 pb-10  text-sm text-Grayish-Blue'>{article.summary}</p>
                     </div>
                   </Fade>

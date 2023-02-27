@@ -19,10 +19,10 @@ export const LandingPage = () => {
     </div>
     <Fade triggerOnce direction="left">
     <div className='text-center items-center md:text-left 2xl:w-11/12'>
-      <h1 className='text-4xl p-4 md:py-4 md:px-0 2xl:text-4xl '>Next generation digital banking</h1>
+      <h1 className='text-4xl p-4 md:py-4 md:px-0 2xl:text-4xl text-Dark-Blue '>Next generation digital banking</h1>
       <p className='p-4 text-sm text-Grayish-Blue md:py-4 md:px-0 2xl:text-lg'>Take your financial life online. Your Easybank account wil be a one-stop-shop for spending,saving,budgeting,investing, and much more.
       </p>
-      <button className="rounded-3xl px-4 py-3 bg-gradient-to-r from-lime-green to-Bright-Cyan text-white text-md">Request Invite</button>
+      <button className="transition hover:scale-110 rounded-3xl px-4 py-3 bg-gradient-to-r from-lime-green to-Bright-Cyan text-white text-md hover:bg-black  hover:opacity-75">Request Invite</button>
     </div>
     </Fade>
   </div>
