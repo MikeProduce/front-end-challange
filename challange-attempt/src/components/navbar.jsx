@@ -11,27 +11,15 @@ export const Navbar = () => {
     setIsOpen(!isOpen);
     if (!isOpen) {
         setShadow('drop-shadow-4xl')
+        setModal('drop-shadow-4xl rounded-md mt-5 text-center w-5/6 mx-auto text-Grayish-Blue bg-white absolute left-1/2 transform -translate-x-1/2 ');
     } else {
         setShadow('')
-
+        
     }
   }
   const hambugerMenu  = isOpen ? "": "hidden"
 
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 768) {
-        setModal('drop-shadow-4xl rounded-md mt-5 text-center w-5/6 mx-auto text-Grayish-Blue bg-white absolute left-1/2 transform -translate-x-1/2 ');
-      } else {
-        setModal('');      }
-    };
 
-    handleResize();
-
-    window.addEventListener('resize', handleResize);
-
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
 
     
   return (
