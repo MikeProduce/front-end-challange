@@ -10,11 +10,11 @@ export const Navbar = () => {
   const toggleOpen = () => {
     setIsOpen(!isOpen);
     if (!isOpen) {
-        setShadow('drop-shadow-4xl')
+        // setShadow('drop-shadow-4xl')
         setModal('drop-shadow-4xl rounded-md mt-5 text-center w-5/6 mx-auto text-Grayish-Blue bg-white absolute left-1/2 transform -translate-x-1/2 ');
     } else {
-        setShadow('')
-        
+        // setShadow('')
+        setModal('')
     }
   }
   const hambugerMenu  = isOpen ? "": "hidden"
