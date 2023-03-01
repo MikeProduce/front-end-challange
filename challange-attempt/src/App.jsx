@@ -12,6 +12,10 @@ function App() {
       <SectionOne />
       <SectionTwo />
       <Footer />
+      <div className='text-center text-white bg-Dark-Blue'> 
+           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                Coded by <a href="#">Miguel G</a>.
+           </div>
     </div>
   )
 }

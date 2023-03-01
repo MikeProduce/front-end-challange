@@ -37,7 +37,7 @@ export const Footer = () => {
             </div>
             <div className='md:block text-center md:flex-auto'>
                 <button className="transition hover:scale-110 hover:opacity-75 mt-4 rounded-3xl px-7 py-3 bg-gradient-to-r from-lime-green to-Bright-Cyan text-white text-md">Request Invite</button>
-                <p className='p-4 text-md mt-2 text-Grayish-Blue'>EasyBank. All Rights Reserved
+                <p className='p-4 text-md mt-2 text-Grayish-Blue'>© Easybank. All Rights Reserved
                 </p>
                 </div>
            </div>
